@@ -26,5 +26,14 @@ public class Task3 {
         System.out.println(" ");
 
         }
+        System.out.println(" ");
+        for (int w = hight * 2 - 1; w >= 0; w = w - 2) {
+            for (int a = 0; a < w; a = a + 2) {
+                System.out.print(" ");
+            }
+            for (int a = w; a < hight * 2; a = a + 1) {
+                System.out.print("*");
+            }
+            System.out.println(" ");}
     }
 }
